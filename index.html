@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Control de computadoras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var edad;
+        var nombre;
+       nombre= prompt("ingrese su nombre");
+        edad= prompt("ingrese su edad");
+        //alert(nombre);
+        document.write(nombre + " " + "tienes "+ edad + " años")
+
+    </script>
+    <br>
+    <script>
+        //entero
+        var num = 28;
+        var num2 = 1;
+        document.write(num+num2);
+    </script>
+    <br>
+    <script>
+        //array;
+        var alumnos = ["jose","luca", 18, true];
+        document.write(alumnos[1]);
+        var mujeres = ["analia", "carla", "clara"];
+        var alumnos3 = alumnos.concat(mujeres);
+        var ordenados = alumnos3.sort();
+        document.write(ordenados);
+
+        //condicionales
+
+        var entrar = edad;
+        if (edad>= 18 || nombre== "cande" ){//instrucciones
+            document.write(" bienvenido eres mayor de edad");
+
+        }else{
+            document.write("eres menor de edad");
+        }
+    </script>
+    <br>
+
+</body>
+</html>
